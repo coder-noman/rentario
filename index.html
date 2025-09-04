@@ -21,123 +21,151 @@
         @theme {
         --color-green: #ABEF5F;
         --color-gray: #737373;
+        --color-lime: #D4F6AE;
+        --color-herobg: #F4F4F4;
+
       }
     </style>
     <!-- js -->
     <script src="script.js"></script>
 </head>
 
-<body>
-    <!-- Nav Bar -->
-    <Header class="md:container mx-auto">
-        <Nav>
-            <div class="navbar bg-base-100 ">
-                <div class="navbar-start">
-                    <div class="bg-green rounded-full  p-2 me-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                            stroke="currentColor" class="h-4 w-4 ">
-                            <path strokeLinecap="round" strokeLinejoin="round"
-                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                        </svg>
-                    </div>
-                    <a class="btn btn-ghost text-3xl ps-0">Renterio</a>
-
-                </div>
-
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-lg">
-                        <li><a>Home</a></li>
-                        <li><a class="text-gray">Services</a></li>
-                        <li><a class="text-gray">Portfolio</a></li>
-                        <li><a class="text-gray">Blogs</a></li>
-                        <li><a class="text-gray">Contact US</a></li>
-                    </ul>
-                </div>
-
-                <div class="navbar-end">
-                    <div class="dropdown dropdown-end">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
+<body class="bg-herobg">
+    <Header class="mb-34">
+        <div class="md:max-w-7xl max-w-xs  mx-auto">
+            <!-- Nav Bar -->
+            <Nav>
+                <div class="navbar bg-transparent ">
+                    <div class="navbar-start">
+                        <div class="bg-green rounded-full  p-2 me-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" class="h-4 w-4 ">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <a class="btn btn-ghost text-3xl ps-0">Renterio</a>
+
+                    </div>
+
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-lg">
                             <li><a>Home</a></li>
                             <li><a class="text-gray">Services</a></li>
                             <li><a class="text-gray">Portfolio</a></li>
                             <li><a class="text-gray">Blogs</a></li>
                             <li><a class="text-gray">Contact US</a></li>
-                            <li>
-                                <div class="flex">
-                                    <div class="border rounded-full  p-2 me-3 inline">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="h-3 w-3">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                                        </svg>
+                        </ul>
+                    </div>
 
-                                    </div>
-                                    <div class="border rounded-full  p-2 me-3 inline">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="h-3 w-3 ">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <div class="flex items-center bg-green py-2 px-2 rounded-full">
-                                        <h2 class="me-2">Book Consult</h2>
-                                        <div class="bg-black rounded-full p-1 me-1 inline-block">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                strokeWidth={1.5} stroke="currentColor" fill="none"
-                                                class="h-3 w-3 text-white">
-                                                <path strokeLinecap="round" strokeLinejoin="round"
-                                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    <div class="navbar-end">
+                        <div class="dropdown dropdown-end">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                                <li><a>Home</a></li>
+                                <li><a class="text-gray">Services</a></li>
+                                <li><a class="text-gray">Portfolio</a></li>
+                                <li><a class="text-gray">Blogs</a></li>
+                                <li><a class="text-gray">Contact US</a></li>
+                                <li>
+                                    <div class="flex">
+                                        <div class="border rounded-full  p-2 me-3 inline">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="h-3 w-3">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                            </svg>
+
+                                        </div>
+                                        <div class="border rounded-full  p-2 me-3 inline">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                stroke-width="1.5" stroke="currentColor" class="h-3 w-3 ">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                                             </svg>
                                         </div>
                                     </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="lg:flex hidden">
-                        <div class="flex">
-                            <div class="border rounded-full  p-2 me-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="h-6 w-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                            </svg>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div class="flex items-center bg-green py-2 px-2 rounded-full">
+                                            <h2 class="me-2">Book Consult</h2>
+                                            <div class="bg-black rounded-full p-1 me-1 inline-block">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                                    strokeWidth={1.5} stroke="currentColor" fill="none"
+                                                    class="h-3 w-3 text-white">
+                                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lg:flex hidden">
+                            <div class="flex">
+                                <div class="border rounded-full  p-2 me-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                    </svg>
 
-                        </div>
-                        <div class="border rounded-full  p-2 me-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="h-6 w-6 ">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                            </svg>
-                        </div>
-                        </div>
-                        <div class="flex items-center bg-green py-2 px-3 rounded-full">
-                            <h2 class="me-2">Book Consult</h2>
-                            <div class="bg-black rounded-full p-1 me-1 inline-block">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5}
-                                    stroke="currentColor" fill="none" class="h-5 w-5 text-white">
-                                    <path strokeLinecap="round" strokeLinejoin="round"
-                                        d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                </svg>
+                                </div>
+                                <div class="border rounded-full  p-2 me-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="h-6 w-6 ">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="flex items-center bg-green py-2 px-3 rounded-full">
+                                <h2 class="me-2">Book Consult</h2>
+                                <div class="bg-black rounded-full p-1 me-1 inline-block">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5}
+                                        stroke="currentColor" fill="none" class="h-5 w-5 text-white">
+                                        <path strokeLinecap="round" strokeLinejoin="round"
+                                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </Nav>
+            </Nav>
+            <!-- Hero -->
+            <section class="text-center ">
+                <div class="flex justify-center">
+                    <img src="images/banner.png" alt="">
+                </div>
+                <h1 class="md:text-5xl text-3xl font-extrabold tracking-tighter">A barn house of this design has a
+                    striking appearance</h1>
+                <p class="text-sm my-5">The barn house captivates with its blend of rustic charm and modern
+                    sophistication, featuring weathered
+                    wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+                <div class="inline-block">
+                    <div class="flex items-center bg-lime py-2 px-3 rounded-full">
+                        <h2 class="me-2 font-bold">View Details</h2>
+                        <div class="bg-green rounded-full p-1 me-1 inline-block">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" fill="none" class="h-5 w-5 ">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </Header>
 
 
